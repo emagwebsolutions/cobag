@@ -53,26 +53,52 @@ const Nav = ()=>{
             <Hamburgerclose closenav = {closenav}  />
 
             <div className="logo">
-                <img src="./images/logo.jpg" alt="Logo" />
+                <img src="/logo.jpg" alt="Logo" />
             </div>
+
             <ul>
                 <li className="active">
                     <Link href="/">Home</Link>
                 </li>
                 <li>
+                    <Link href="/#">Bible School</Link>
+                </li>
+                <li>
                     <Link href="/#">About Us</Link>
+                    <ul>
+                        <li>
+                        <Link href="/#">History</Link>
+                        </li>
+                        <li>
+                        <Link href="/#">Mission Statement</Link>
+                        </li>
+                        <li>
+                        <Link href="/#">Statement of faith</Link>
+                        </li>
+                        <li>
+                        <Link href="/#">Staff </Link>
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <Link href="/#">Services</Link>
+                    <Link href="/#">Get Involved</Link>
+                    <ul>
+                        <li>
+                        <Link href="/#">Donate</Link>
+                        </li>
+                        <li>
+                        <Link href="/#">Volunteer</Link>
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <Link href="/#">Portfolio</Link>
+                    <Link href="/contact">Photo Gallery</Link>
                 </li>
                 <li>
                     <Link href="/contact">Contact Us</Link>
                 </li>
                 <li>
-                    <Link href="/blog">Blog</Link>
+                    <Link href="/blog">Donate</Link>
                 </li>
             </ul>
 

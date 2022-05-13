@@ -1,41 +1,42 @@
 
 @media(min-width: 35em){
+    .logo{
+        width: 5rem!important;
+    }
 
-.btntimes{
-    display: none;
-}
-.nav-section,
-nav{
-    width: 100vw;
-    color: rgb(102,102,102);
-    font-size: 1.6rem;
-    justify-content: center;
-    padding: 1rem;
-    gap: 9rem;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-color: white;
-    box-shadow: 0 .7rem .4rem rgba(102,102,102, .2);
-}
+    .btntimes{
+        display: none;
+    }
+    .nav-section,
+    nav{
+        width: 100vw;
+        color: rgb(102,102,102);
+        font-size: 1.6rem;
+        justify-content: center;
+        padding: 1rem;
+        gap: 9rem;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: white;
+        box-shadow: 0 .7rem .4rem rgba(102,102,102, .2);
+    }
 
-.nav-wrapper{
-    width: 100%;
-    font-size: 1.6rem;
-    justify-content: center;
-    padding: 1rem;
-    gap: 9rem;
-    position: sticky;
-    top: 0;
-}
+    .nav-wrapper{
+        width: 100%;
+        font-size: 1.6rem;
+        padding-inline: 7rem;
+        position: sticky;
+        top: 0;
+    }
 
-.nav-section{
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 0;
-}
+    .nav-section{
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 0;
+    }
 
-nav > .nav-wrapper{
+    nav > .nav-wrapper{
     display: flex;
     justify-content: space-between;
 
@@ -57,6 +58,7 @@ nav > .nav-wrapper{
                 display: block;
                 font-size: 1.6rem;
                 padding: 1rem;
+                font-weight: bold;
             }
 
         }
