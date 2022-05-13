@@ -4,11 +4,11 @@ import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
 
       THIS IS THE HOME PAGE
      
-    </div>
+    </>
   )
 }
 

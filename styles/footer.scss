@@ -1,0 +1,35 @@
+footer{
+  padding: 3em;
+
+  .social .fa{
+    color: muted();
+    width: 4rem;
+    height: 4rem;
+    border: solid .1rem muted();
+    border-radius: 50%;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+
+  p{
+    font-size: 1.4rem;
+    text-align: center;
+    color: muted();
+  }
+
+  .contact{
+    gap: 2rem;
+    div{
+      border: solid .1rem muted();
+      padding: 1em;
+      font-size: 1.6rem;
+      text-align: center; 
+      width: 20rem;
+
+    }
+  }
+
+}

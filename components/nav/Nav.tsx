@@ -97,9 +97,6 @@ const Nav = ()=>{
                 <li>
                     <Link href="/contact">Contact Us</Link>
                 </li>
-                <li>
-                    <Link href="/blog">Donate</Link>
-                </li>
             </ul>
 
             </div>
