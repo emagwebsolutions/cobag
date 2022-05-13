@@ -17,6 +17,7 @@ const Hamburgerclose = ({closenav}: obj)=>{
             </div>
         </div>
     )
+    
 }
 
 export default Hamburgerclose

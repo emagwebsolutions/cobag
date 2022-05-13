@@ -26,8 +26,6 @@ const Nav = ()=>{
     }
 
 
-
-
     useEffect(() => {
         const onclick = (ev: any) => {
             if(ev.target.matches('nav')){
@@ -45,10 +43,7 @@ const Nav = ()=>{
 
     return (
         <> 
-        <section className="nav-section">
-        <span>Call us now on: <a href="tel:+233576705880">+233 57 670 5880</a></span>
-        <span>Email us: info@unakreations.com</span> 
-        </section>
+ 
 
         <Hamburgeropen opennav = {opennav}  name="U & A Creation" />
 
@@ -66,66 +61,18 @@ const Nav = ()=>{
                 </li>
                 <li>
                     <Link href="/#">About Us</Link>
-                        <ul>
-                            <li>
-                            <Link href="/team">Our Team</Link>
-                            </li>
-                            <li>
-                            <Link href="/careers">Careers</Link>
-                            </li>
-                            <li>
-                            <Link href="/testimonials">Testimonials</Link>
-                            </li>
-                        </ul>
                 </li>
                 <li>
                     <Link href="/#">Services</Link>
-                    <ul>
-                        <li>
-                            <Link href="/klodin">U&A Klodin</Link>
-                        </li>
-                        <li>
-                            <Link href="/album">U&A Album</Link>
-                        </li>
-                        <li>
-                            <Link href="/grafix">U&A GRAFIX</Link>
-                        </li>
-                        <li>
-                            <Link href="/photocopy">Photocopy</Link>
-                        </li>
-                        <li>
-                            <Link href="/advertising">Advertising</Link>
-                        </li>
-                        <li>
-                            <Link href="/printing">Printing</Link>
-                        </li>
-                        <li>
-                            <Link href="/training">Training</Link>
-                        </li>
-                        <li>
-                            <Link href="/administrative">Administrative Services</Link>
-                        </li>
-                    </ul>
                 </li>
                 <li>
                     <Link href="/#">Portfolio</Link>
-                    <ul>
-                        <li>
-                            <Link href="/branding">Branding</Link>
-                        </li>
-                        <li>
-                            <Link href="/gallery">Gallery</Link>
-                        </li>
-                    </ul>
                 </li>
                 <li>
                     <Link href="/contact">Contact Us</Link>
                 </li>
                 <li>
                     <Link href="/blog">Blog</Link>
-                </li>
-                <li className="request-btn">
-                    <Link href="/">Request a free quote</Link>
                 </li>
             </ul>
 
