@@ -62,7 +62,6 @@
       margin-bottom: 1.6em;
       color: muted();
       text-align: center;
-      font-family:  heading-font();
     }
 
     a{
@@ -120,6 +119,42 @@
 
   .staff{
     background-color: grey();
+    color: muted();
+ 
+    h1{
+      font-size: 4rem;
+      color: muted();
+    }
+    .card{
+      margin-top: 4em;
+      width: 30rem;
+      margin-inline: auto;
+      div{
+        text-align: center;
+        padding: 2em;
+        strong{
+          font-size: 2rem;
+        }
+
+      }
+      picture{
+        height: 30rem;
+        overflow: hidden;
+        display: block;
+        border: solid .7rem muted(.4);
+        img{
+          transition: .2s linear;
+        }
+      }
+    
+      &:hover picture img{
+        transform: scale(1.5);
+      }
+      &:hover div{
+        background-color: muted(.4);
+        color: #222;
+      }
+    }
   }
 
   .student-testimonials{
@@ -142,6 +177,27 @@
     .p-3{
       color: muted();
       text-align: center;
+    }
+
+  }
+
+  .contactSection{
+    color: muted();
+    h1{
+      font-size: 4rem;
+      text-align: center;
+    }
+    .getintouch{
+      width: 50rem;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 2em;
+    }
+
+    .cont-col{
+      div{
+        padding: 2em;
+      }
     }
 
   }

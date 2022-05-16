@@ -28,9 +28,7 @@
     @function success($opacity: 1){
         @return rgba(51,153,51, $opacity);
     }
-    @function heading-font(){
-        @return 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
+
     .text-white{
         color: white();
     }

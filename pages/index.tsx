@@ -1,4 +1,5 @@
- import type { NextPage } from 'next'
+ import ContactForm from '@/components/ContactForm'
+import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -110,6 +111,22 @@ const Home: NextPage = () => {
             <div className="divider"></div>
             <div className="flex">
 
+
+
+              <div className="p-3">
+                <picture>
+                  <img  src="/student2.jpg" alt="" />
+                </picture>
+                <p>
+                Loving God and his work sometimes needs understanding and spiritual principles and teaching, therefore COBAG theological seminary has enchance and encourage my relationship with God,discover my purpose not just in academic but solidify my foundation and improves my spritual life.
+                </p>
+
+                <h4>Simona Acheampong</h4>
+
+                <></>
+              </div>
+
+
               <div className="p-3 text-center">
                 <picture>
                   <img  src="/student1.jpg" alt="" />
@@ -127,18 +144,7 @@ const Home: NextPage = () => {
                 <h4>Vicent Osei owusu</h4>
               </div>
 
-              <div className="p-3">
-                <picture>
-                  <img  src="/student2.jpg" alt="" />
-                </picture>
-                <p>
-                Loving God and his work sometimes needs understanding and spiritual principles and teaching, therefore COBAG theological seminary has enchance and encourage my relationship with God,discover my purpose not just in academic but solidify my foundation and improves my spritual life.
-                </p>
 
-                <h4>Simona Acheampong</h4>
-
-                <></>
-              </div>
 
               <div className="p-3">
                 <picture>
@@ -161,33 +167,50 @@ const Home: NextPage = () => {
 
         <div className="container">
           <div>
-            <h1>OUR STAFF</h1>
+          <h1 className="text-center">OUR STAFF</h1>
             <div className="divider"></div>
+
 
             <div className="flex">
 
+
+
               <div>
-                <picture>
-                  <img src="" alt="" />
-                </picture>
-                <h2>Full Name</h2>
-                <p>Role</p>
+                <div className="card">
+                  <picture>
+                    <img src="/staff1.jpeg" alt="" />
+                  </picture>
+                  <div>
+                    <strong>Apostle Kofi Boakye</strong>
+                    <p>Vice Chairman</p>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div>
+                <div  className="card">
+                  <picture>
+                    <img src="/staff2.jpeg" alt="" />
+                  </picture>
+                  <div>
+                  <strong>Apostle Comfort Agyeiwaa Addai</strong>
+                  <p>Treasurer</p>
+                  </div>
+                </div>
               </div>
 
               <div>
-                <picture>
-                  <img src="" alt="" />
-                </picture>
-                <h2>Full Name</h2>
-                <p>Role</p>
-              </div>
-
-              <div>
-                <picture>
-                  <img src="" alt="" />
-                </picture>
-                <h2>Full Name</h2>
-                <p>Role</p>
+                <div  className="card">
+                  <picture>
+                    <img src="/staff3.jpeg" alt="" />
+                  </picture>
+                  <div>
+                  <strong>Prophet Francis Adomako Okyere</strong>
+                  <p>Public Relation Officer</p>
+                  </div>
+                </div>
               </div>
 
 
@@ -205,20 +228,21 @@ const Home: NextPage = () => {
           <div>
             <h1>CONTACT</h1>
             <div className="divider"></div>
-            <p>
+            <p className="getintouch">
             Get in touch with us by using the form below, or using the details below.
             Alternatively – email us at: office@capernwrayaustralia.org
             Sending post to a student: Please add the student’s name as heading, when addressing.
 
             Office Hours Monday – Friday 9am- 4:00pm (Closed Wednesday)
             </p>
-            <div className="flex">
+            
+
 
               <div className="flex">
 
 
                 <div>
-                  <div className="flex">
+                  <div className="flex cont-col">
                     <div>
                       <h2>Postal Address</h2>
                         <p>
@@ -239,7 +263,8 @@ const Home: NextPage = () => {
                     </div>
                   </div>
 
-                  <div className="flex">
+                  <div className="flex  cont-col">
+                    
                     <div>
                       <h2>Postal Address</h2>
                         <p>
@@ -261,16 +286,9 @@ const Home: NextPage = () => {
                   </div>
 
                 </div>
-                 <div>
-                    <h1>Contact Us</h1>
-                   <form action="">
-<input type="text" placeholder='First Name' />
-<input type="text" placeholder='Last Name' />
-<input type="text" placeholder='Email' />
-<textarea name="" className="" ></textarea>
-<a href="">SEND</a>
 
-                   </form>
+                 <div className="p-2">
+                    <ContactForm />
                   
                 </div>
 
@@ -280,7 +298,6 @@ const Home: NextPage = () => {
                 
               </div>
 
-            </div>
           </div>
         </div>
 
