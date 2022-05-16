@@ -122,6 +122,30 @@
     background-color: grey();
   }
 
+  .student-testimonials{
+
+    h1{
+      font-size: 4rem;
+      color: muted();
+    }
+
+    picture{
+  
+      img{
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+        margin: 0 auto;
+      }
+    }
+
+    .p-3{
+      color: muted();
+      text-align: center;
+    }
+
+  }
+
 
 
 }

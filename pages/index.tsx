@@ -108,33 +108,46 @@ const Home: NextPage = () => {
           <div>
             <h1 className="text-center">STUDENT TESTIMONIALS</h1>
             <div className="divider"></div>
-            <div className="flex text-center">
+            <div className="flex">
 
-              <div className="p-3">
+              <div className="p-3 text-center">
                 <picture>
-                  <img src="" alt="" />
+                  <img  src="/student1.jpg" alt="" />
                 </picture>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quia facilis earum mollitia quidem illo ipsam quam laudantium culpa sequi optio quo iusto autem perferendis odio, illum, officia temporibus quaerat.
+                  Council of Bishops and Apostles Theological Seminary. 
+
+                  Vincent Osei Owusu is an Alumini of COBAG Theological Seminary.
+
+                  Council of Bishops and Apostles Theological Seminary is one of the most decent and discipline theological seminary ever. With the COBAG Theological Seminary I have been able to go deep in the bible and also I have acquire more knowledge and skills in Pastoral ministry. 
+
+                  I recommend COBAG Theological Seminary to everyone and there will be transformation in your life after completion. 
+                  God bless you for coming.
                 </p>
+                <h4>Vicent Osei owusu</h4>
               </div>
 
               <div className="p-3">
                 <picture>
-                  <img src="" alt="" />
+                  <img  src="/student2.jpg" alt="" />
                 </picture>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quia facilis earum mollitia quidem illo ipsam quam laudantium culpa sequi optio quo iusto autem perferendis odio, illum, officia temporibus quaerat.
+                Loving God and his work sometimes needs understanding and spiritual principles and teaching, therefore COBAG theological seminary has enchance and encourage my relationship with God,discover my purpose not just in academic but solidify my foundation and improves my spritual life.
                 </p>
+
+                <h4>Simona Acheampong</h4>
+
+                <></>
               </div>
 
               <div className="p-3">
                 <picture>
-                  <img src="" alt="" />
+                  <img  src="/student3.jpg" alt="" />
                 </picture>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quia facilis earum mollitia quidem illo ipsam quam laudantium culpa sequi optio quo iusto autem perferendis odio, illum, officia temporibus quaerat.
+                I wasn't part of anything concerning bible i love being part in the ministry but as for bible i no none till the time i enroll in cobag theological seminary now i can prepare sermon, preach and no the ethics of the Bible thanks to cobag theological seminary With cobag am secured
                 </p>
+                <h4>Joyce Owusu Ansah</h4>
               </div>
 
             </div>
@@ -254,7 +267,7 @@ const Home: NextPage = () => {
 <input type="text" placeholder='First Name' />
 <input type="text" placeholder='Last Name' />
 <input type="text" placeholder='Email' />
-<textarea name="" id="" cols="30" rows="10"></textarea>
+<textarea name="" className="" ></textarea>
 <a href="">SEND</a>
 
                    </form>
