@@ -1,0 +1,137 @@
+
+
+
+.home{
+
+  section{
+    padding: 5em;
+  }
+
+    section:nth-of-type(1){
+
+      div{
+          text-align: center;
+
+        .logo{
+          margin-inline: auto;
+          width: 20rem;
+          padding: 1rem;
+          border: solid .2rem warning();
+          margin-bottom: 3rem;
+        }
+
+        h1{
+          font-size: 9rem;
+          font-weight: 900;
+          line-height: 10rem;
+        }
+        h3{
+          font-size: 4rem;
+          font-weight: 900;
+        }
+        a{
+          display: block;
+          padding: 1.2rem;
+          background-color: #666;
+          border-radius: 1rem;
+          color: #fff;
+          width: 17rem;
+          border: solid .2rem #fff;
+          margin-inline: auto;
+          margin-top: 3em;
+        }
+      }
+
+  }
+
+  section:nth-of-type(2){
+    padding: 1em;
+    background-color: muted();
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+
+
+
+  .about-section{
+
+    h3{
+      font-size: 2.2rem;
+      margin-bottom: 1.6em;
+      color: muted();
+      text-align: center;
+      font-family:  heading-font();
+    }
+
+    a{
+      display: block;
+      padding: .6em;
+      background-color: muted();
+      color: white();
+      width: max-content;
+      &:hover{
+        background-color: white();
+        border: solid .2rem muted();
+        color: muted();
+      }
+    }
+  
+  }
+  
+
+  .cobag-life{
+    background-color: grey();
+    h1,h2,h5,h6{
+      font-family: header-font();
+      color: muted();
+      text-align: center;
+    }
+    h1{
+      font-size: 4rem;
+    }
+    p{
+      text-align: center;
+      color: muted();
+    }
+    .imgs{
+
+      div{
+      
+        div{
+          width: 25rem;
+          height: 25rem;
+          border: solid .6rem white;
+          border-radius: 50%;
+          margin-inline: auto;
+          div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+
+      }
+
+    }
+  }
+
+
+  .staff{
+    background-color: grey();
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

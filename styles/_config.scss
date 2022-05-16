@@ -4,6 +4,9 @@
     @function white($opacity: 1){
         @return rgba(255,255,255, $opacity);
     }
+    @function grey(){
+        @return #ededed;
+    }
     @function default($opacity: 1){
         @return rgba(241,241,241, $opacity);
     }
@@ -24,6 +27,9 @@
     }
     @function success($opacity: 1){
         @return rgba(51,153,51, $opacity);
+    }
+    @function heading-font(){
+        @return 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .text-white{
         color: white();
@@ -217,6 +223,12 @@
     }
     .flex{
         display: flex;
+    }
+
+    .divider{
+        width: 20rem;
+        border-bottom: solid .1rem muted();
+        margin-inline: auto;
     }
 
 

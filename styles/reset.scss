@@ -50,5 +50,16 @@
     @extend .text-muted;
   }
   
+  .container{
+    display: flex;
+    gap: 3rem;
+    width: 130rem;
+    margin-inline: auto;
+    flex-wrap: wrap;
+
+    div{
+      flex: 1 1 10rem;
+    }
+  }
   
   
