@@ -17,6 +17,7 @@
         z-index: 10;
         background-color: white();
         box-shadow: 0 .7rem .4rem muted(0.2);
+ 
     }
     
     .nav-wrapper{
@@ -89,6 +90,7 @@
                             padding-block: .4rem;
                             border-bottom: solid 1px #eee;
                             transition: .4s;
+                            font-size: 1.4rem;
                             &:hover{
                                 color: danger();
                             }

@@ -1,4 +1,5 @@
  import ContactForm from '@/components/ContactForm'
+import Map from '@/components/Map'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -303,8 +304,15 @@ const Home: NextPage = () => {
 
       </section>
 
-
-      <section></section>
+        <Map  
+              src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.9344580995084!2d-1.6442212846742472!3d6.655046023465099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb91fbcef115c3%3A0xf7a9865fb13ebd0f!2sSantasi%20Market!5e0!3m2!1sen!2sgh!4v1652859167057!5m2!1sen!2sgh"
+              width = ""
+              height = ""
+              allowfullscreen =  ""
+              loading =  "lazy"
+              referrerpolicy =  "no-referrer-when-downgrade"
+        
+        />
 
       <style jsx>
         {`
@@ -362,3 +370,6 @@ const Home: NextPage = () => {
 }
 
 export default Home
+
+
+
