@@ -16,7 +16,7 @@ const Home: NextPage = () => {
 
           <h1>COUNCIL OF BISHOPS</h1>
           <h1>AND APOSTLES, GHANA</h1>
-          <h3>The Fear of God is the begining of wisdom</h3>
+          <h3>Study to shew thyself approved unto God</h3>
           <a href=""> APPLY NOW </a>
         </div>
       </section>
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
       <section  className="about-section">
         <div className="container">
           <div>
-            <h3>BISHOP SOLOMON AKWASI SARPONG</h3>
+            <h3>Bishop Solomon Osei Sarpong Kumankuma</h3>
           <div className="bishop">
 
           </div>
@@ -37,10 +37,30 @@ const Home: NextPage = () => {
 
           <div>
           <h3>ABOUT COBAG</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam amet corporis tempora illo ducimus ad ut. Ducimus, commodi veritatis, voluptatum accusamus unde exercitationem iste voluptatem ex odio illum quos quibusdam.
-            </p>
-            <a href="/">More about our bible school</a>
+
+          <div className="para-text">
+
+            <h2>COUNCIL OF BISHOP AND APOSTLES, GHANA (COBAG)</h2>
+
+            <strong>COUNCIL:</strong>
+
+            <ol>
+              <li>
+              is a group of people who come together to consult, deliberate or make decisions.
+              </li>
+              <li>
+              A body serving in an administrative capacity.
+              </li>
+              <li>
+              (Christianity) an assembly of theologians and bishops and other representatives of deferent Churches or diocesesIf you’re whenever you need to get your name out there or a job seeker, you can hire someone to write your paper for you. It might best essays be an academic research paper, a report. The cover for the person is generally based on their experience and how much time they’d have to put into writing the newspaper.that is convened to regulate matters of discipline or doctrine.
+              </li>
+            </ol>
+
+  
+            
+            </div>
+
+            <a href="/">More about COBAG</a>
           </div>
         </div>
       </section>

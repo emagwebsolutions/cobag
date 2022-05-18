@@ -18,16 +18,56 @@
           padding: 1rem;
           border: solid .2rem warning();
           margin-bottom: 3rem;
+          animation: logo forwards .5s ease-in;
+          animation-delay: .4s;
+          opacity: 0;
+        }
+
+        @keyframes logo{
+          from{
+            transform: scale(0);
+            opacity: 0;
+          }
+          to{
+            transform: scale(1);
+            opacity: 1;
+          }
         }
 
         h1{
           font-size: 9rem;
           font-weight: 900;
           line-height: 10rem;
+          animation: council forwards .5s ease-in;
+          animation-delay: .7s;
+          opacity: 0;
+        }
+        @keyframes council{
+          from{
+            transform: scale(0);
+            opacity: 0;
+          }
+          to{
+            transform: scale(1);
+            opacity: 1;
+          }
         }
         h3{
           font-size: 4rem;
           font-weight: 900;
+          animation: caption forwards .5s ease-in;
+          animation-delay: 1s;
+          opacity: 0;
+        }
+        @keyframes caption{
+          from{
+            transform: scale(0);
+            opacity: 0;
+          }
+          to{
+            transform: scale(1);
+            opacity: 1;
+          }
         }
         a{
           display: block;
@@ -39,6 +79,19 @@
           border: solid .2rem #fff;
           margin-inline: auto;
           margin-top: 3em;
+          animation: btn forwards .5s ease-in;
+          animation-delay: 1.3s;
+          opacity: 0;
+        }
+        @keyframes btn{
+          from{
+            transform: scale(0);
+            opacity: 0;
+          }
+          to{
+            transform: scale(1);
+            opacity: 1;
+          }
         }
       }
 
