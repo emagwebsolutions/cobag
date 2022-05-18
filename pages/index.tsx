@@ -52,7 +52,7 @@ const Home: NextPage = () => {
               A body serving in an administrative capacity.
               </li>
               <li>
-              (Christianity) an assembly of theologians and bishops and other representatives of deferent Churches or diocesesIf you’re whenever you need to get your name out there or a job seeker, you can hire someone to write your paper for you. It might best essays be an academic research paper, a report. The cover for the person is generally based on their experience and how much time they’d have to put into writing the newspaper.that is convened to regulate matters of discipline or doctrine.
+              (Christianity) an assembly of theologians and bishops and other representatives of deferent Churches or diocesesIf you’re whenever you need to get your name out there or a job seeker, you can hire someone to write your paper for you. It might 
               </li>
             </ol>
 
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
             
             </div>
 
-            <a href="/">More about COBAG</a>
+            <a href="/whoweare">More about COBAG</a>
           </div>
         </div>
       </section>

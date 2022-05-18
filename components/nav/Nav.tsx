@@ -52,51 +52,35 @@ const Nav = ()=>{
 
             <Hamburgerclose closenav = {closenav}  />
 
+
             <div className="logo">
-                <img src="/logo.jpg" alt="Logo" />
+                <Link href="/"><a><img src="/logo.jpg" alt="Logo" /></a></Link>
             </div>
 
             <ul>
                 <li className="active">
-                    <Link href="/">Home</Link>
+                    <Link href="/">
+                        <a>HOME</a>
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/whoweare">
+                        <a>WHO WE ARE</a>
+                    </Link>
+                    
                 </li>
                 <li>
-                    <Link href="/#">Bible School</Link>
+                    <Link href="/codeofcontact">
+                        <a>CODE OF ETHICS</a>  
+                    </Link>
                 </li>
                 <li>
-                    <Link href="/#">About Us</Link>
-                    <ul>
-                        <li>
-                        <Link href="/#">History</Link>
-                        </li>
-                        <li>
-                        <Link href="/#">Mission Statement</Link>
-                        </li>
-                        <li>
-                        <Link href="/#">Statement of faith</Link>
-                        </li>
-                        <li>
-                        <Link href="/#">Staff </Link>
-                        </li>
-                    </ul>
+                    <Link href="/contact">
+                        <a>CONTACT US</a>
+                    </Link>
                 </li>
-                <li>
-                    <Link href="/#">Get Involved</Link>
-                    <ul>
-                        <li>
-                        <Link href="/#">Donate</Link>
-                        </li>
-                        <li>
-                        <Link href="/#">Volunteer</Link>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <Link href="/contact">Photo Gallery</Link>
-                </li>
-                <li>
-                    <Link href="/contact">Contact Us</Link>
-                </li>
+  
             </ul>
 
             </div>

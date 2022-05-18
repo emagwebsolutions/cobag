@@ -1,0 +1,8 @@
+.codeofconduct{
+  section{
+    padding: 5rem;
+  }
+  section:nth-of-type(even){
+    background-color: grey();
+  }
+}
