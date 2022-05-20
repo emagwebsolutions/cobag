@@ -1,8 +1,7 @@
  import ContactForm from '@/components/ContactForm'
 import Map from '@/components/Map'
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
   return (
@@ -10,7 +9,7 @@ const Home: NextPage = () => {
 
       <section>
         <div>
-          <div className="logo">
+          <div className="b-logo">
           <img src="/logo.jpg" alt="" />
           </div>
 
@@ -72,43 +71,65 @@ const Home: NextPage = () => {
           <div>
         <h1>WHAT'S IT LIKE AT COBAG</h1>
         <div className="divider"></div>
+        <br />
+        <p>
+          You must have lots of questions. Here are 3 tailored PDF’s that aim to quickly answer some of your first big questions about coming to COBAG
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, laudantium ab explicabo neque nisi </p>
+        </p>
+        <br />
 
         <div className="imgs flex">
 
         <div>
-            <div  className="enquiry">
+            <div  className="student-enquiry">
+              <div>
+                <Link href="javascript:void(0)">
+                <a>
+                  <article>
+                  <span>
+                  <strong>What a </strong>
+                  <strong>Student</strong>
+                  <strong>want to know</strong>
+                  </span>
+                  </article>
+                </a>
+                </Link>
+              </div>
+            </div>
+        </div>
+
+          <div>
+            <div className="sponsor-enquiry">
             <div>
-              <article>
-              <h5>What a </h5>
-              <h2>Student</h2>
-              <h6>want to know</h6>
-              </article>
+                <Link href="javascript:void(0)">
+                <a>
+                  <article>
+                  <span>
+                  <strong>What </strong>
+                  <strong>Sponsors</strong>
+                  <strong>want to know</strong>
+                  </span>
+                  </article>
+                </a>
+                </Link>
               </div>
             </div>
           </div>
 
           <div>
-            <div className="enquiry">
+            <div  className="pastor-enquiry">
             <div>
-              <article>
-              <h5>What a </h5>
-              <h2>Student</h2>
-              <h6>want to know</h6>
-              </article>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div  className="enquiry">
-            <div>
-              <article>
-              <h5>What a </h5>
-              <h2>Student</h2>
-              <h6>want to know</h6>
-              </article>
+                <Link href="javascript:void(0)">
+                <a>
+                  <article>
+                  <span>
+                  <strong>What a </strong>
+                  <strong>Pastor</strong>
+                  <strong>want to know</strong>
+                  </span>
+                  </article>
+                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -244,7 +265,7 @@ const Home: NextPage = () => {
       </section>
 
 
-      <section className="contactSection">
+      <section className="contactSection" id="contact">
         <div className="container">
           <div>
             <h1>CONTACT</h1>
@@ -359,12 +380,23 @@ const Home: NextPage = () => {
             align-items: center;
           }
 
-          .enquiry{
+          .student-enquiry{
             height: 40rem;
-            background-image: url('/student.jpeg');
+            background-image: url('/student-enquiry.jpg');
             background-size: cover;
             background-position: center;
-            color: #fff;
+            color: #fff!important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .sponsor-enquiry{
+            height: 40rem;
+            background-image: url('/sponsor.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff!important;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -376,6 +408,17 @@ const Home: NextPage = () => {
             background-size: cover;
             background-position: center;
             color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .pastor-enquiry{
+            height: 40rem;
+            background-image: url('/pastor.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff!important;
             display: flex;
             justify-content: center;
             align-items: center;

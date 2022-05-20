@@ -54,7 +54,11 @@ const Nav = ()=>{
 
 
             <div className="logo">
-                <Link href="/"><a><img src="/logo.jpg" alt="Logo" /></a></Link>
+                <Link href="/">
+                    <a>
+                        <img src="/logo.jpg" alt="Logo" />
+                    </a>
+                </Link>
             </div>
 
             <ul>
@@ -76,7 +80,7 @@ const Nav = ()=>{
                     </Link>
                 </li>
                 <li>
-                    <Link href="/contact">
+                    <Link href="#contact">
                         <a>CONTACT US</a>
                     </Link>
                 </li>
